@@ -1,0 +1,387 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+    color: #D3D3D3;
+    
+    
+}
+main{
+    background-color: white;
+}
+
+h1{
+    color: #BA181B;
+    font-size: 4.375rem;
+    text-shadow: #B1A7A6 0px 10px 50px;
+    border: none;
+    transition: all 0.75s linear 0s;
+}
+h1:hover{
+    /*  */
+    scale: 1.15;
+    
+}
+
+h2{
+    font-size: 3.125rem;
+    color: #BA181B;
+    text-shadow: 0px 10px 50px;
+}
+h3{
+    font-size: 0.9375rem;
+    text-shadow: 0px 10px 50px;
+}
+.in{
+    font-size: 1.5625rem;
+}
+.inp{
+    height: 6%;
+    width: 65%;
+    background-color: black;
+    border: 3px solid #B1A7A6;
+    border-radius: 10px;
+    color: #B1A7A6;
+    font-weight: bolder;
+}
+button{
+    height: 6%;
+    width: 25%;
+    background-color: black;
+    border: 3px solid #B1A7A6;
+    border-radius: 10px;
+    color: #B1A7A6;
+    font-weight: bolder;
+    transition: all 1s ease 0s;
+}
+button:hover{
+    background-color: #BA181B;
+    border-color: black;
+    color: black;
+}
+
+
+
+#navbar{
+    background-color: #0B090A;
+    color: #BA181B;
+    height:3.2937%;
+    width: 100%;
+    padding-top: 1.6468%;
+    border-color: rgb(36, 35, 35);
+    position: relative;
+    position: sticky;
+    margin-bottom: 0px;
+}
+#logo{
+    padding-right: 38%;
+    color:rgb(5, 131, 203);
+    font-size: 1.5625rem;
+    font-weight: bolder;
+    background-color: #0B090A;
+    border-color: #0B090A;
+    transition: none;
+    position: relative;
+    bottom: 10px;
+}
+footer{
+    height: 2.108%;
+    font-size: 0.75rem;
+    background-color: #161A1D;
+    color: white;
+    text-align: center;
+    padding-top: 0.3125rem;
+    position: relative;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.3175%;
+    background-color: #070506;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.panel1{
+    background-color: #161A1D;
+}
+.panel2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    background-color: #070506;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    margin: 1.3175%;
+    font-size: 0.80rem;
+}
+.part1 p {
+    align-self: flex-start;
+    margin: 2px;
+    font-weight: 500;
+}
+.part1 p:hover{
+    color: #BA181B;
+}
+.part1 i:hover{
+    color: #B1A7A6;
+}
+
+.part1 i {
+    color: #BA181B;
+}
+
+.icons{
+    position: relative;
+    bottom: 2.5rem;
+}
+
+
+a{
+    margin:0.625rem;
+    margin-right: 3.2937%;
+    text-decoration: none;
+    color: #E5383B;
+    font-weight: bold;
+    border:5px solid #0B090A;
+    border-radius: 5px;
+    transition: all 1s ease 0s;
+
+}
+a:hover{
+    background-color: #E5383B;
+    border:5px solid #E5383B;
+    border-radius: 5px;
+    color: #0B090A;
+    font-size: 1.5625rem;
+}
+
+
+section{
+    background-color: #161A1D;
+    color:#E5383B;
+}
+b{
+    color: #A4161A;
+}
+
+
+
+
+
+
+
+#signup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 95%;
+    width: 100%;
+}
+#enc{
+    display: flex;
+    
+    
+}
+.videos{
+    background-color: black;
+    display: flex;
+    height: 28.125rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28.125rem;
+    width: 50%;
+}
+video{
+    height: 58.5%;
+    /* width: 60%; */
+    position: relative;
+    left: -0.0625rem;
+    right: 0px;
+    bottom: 84.5%;
+    border: 3px solid black;
+    transition: all 1s ease 0s;
+}
+
+.videos:hover{
+    border-color: #D3D3D3;
+}
+
+#tv{
+    z-index: 1;
+    /* height: 107%; */
+    width: 82%;
+}
+
+
+
+
+iframe{
+    height: 57%;
+    width: 60.5%;
+    position: relative;
+    left: -0.0625rem;
+    top: -84.5%;
+    border: 3px solid black;
+    transition: all 1s ease 0s;
+
+}
+iframe:hover{
+    scale: 1;
+    border: 4px solid #A4161A;
+}
+iframe:active{
+    scale: 1;
+}
+/* .ds{
+    height: 25rem;
+    transition: all 1s ease 0s;
+    background-color: #0B090A;
+    border: 2px solid #B1A7A6;
+}
+.ds:hover{
+    background-color: #B1A7A6;
+    border: 5px solid #0B090A;
+    color: rgb(36, 35, 35);
+    scale: 1.15;
+    
+} */
+
+
+section{
+    background-color: black;
+}
+
+#temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: none;
+}
+.tem{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    font-size: 2.1875rem;
+    font-weight: bolder;
+    transition: all 2s ease 0s;
+    margin:0.625rem;
+    position: relative;
+    top: 1.25rem;
+}
+.tem:hover{
+    scale: 1.25;
+    background-color: #BA181B;
+    border: 2px solid #BA181B;
+    color: black;
+    border-radius: 0.625rem;
+}
+
+#en{
+    height:25rem;
+    /* width: 94.875rem; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    width: 45%;
+    border: 3px solid #B1A7A6;
+    border-radius: 0.9375rem;
+    transition: all 1s ease 0s;
+    position: relative;
+    bottom: 0px;
+}
+#subo:hover{
+    scale: 1.25;
+    border-color: #BA181B;
+}
+
+th{
+    color: #BA181B;
+}
+
+textarea{
+    width: 18.75rem;
+    height: 15%;
+    border: 3px solid #B1A7A6;
+    border-radius: 0.625rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 9.375rem;
+    height: 1.875rem;
+    font-weight: bolder;
+    border: 3px solid #B1A7A6;
+    border-radius: 0.625rem;
+    background-color: black;
+    transition: all 1s ease 0s;
+}
+button:hover{
+    scale: 1.25;
+    border-color: black;
+    background-color: #BA181B;
+    color: black;
+}
+h4{
+    color: #BA181B;
+    text-shadow:  0px 10px 50px;
+    font-size: 1.5625rem;
+}
+h5{
+    color: #BA181B;
+}
+
+#man{
+    position: relative;
+    bottom: 2.5rem;
+    right: 0.3125rem;
+    color: #E5383B;
+    font-size: 1.5rem;
+    transition: all 1s ease 0s;
+}
+#man:hover{
+    scale: 2;
+    color: #B1A7A6;
+}
+
+
+/* @media(max-width 600px){
+    *{
+        scale: 0.5;
+    }
+} */
+
+
+
